@@ -38,8 +38,8 @@ while test $# -gt 0; do
 	shift
 done
 
-export ZSH=$HOME/.dotfiles
+export ZSHDOT=$HOME/.dotfiles
 
 # Install software
-echo "› $ZSH/script/install"
-$ZSH/script/install
+echo "› $ZSHDOT/script/install"
+$ZSHDOT/script/install
