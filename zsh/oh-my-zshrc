@@ -1,0 +1,6 @@
+ZSH_THEME="agnoster"
+DEFAULT_USER="dweber"
+
+plugins=(git node npm)
+
+source $ZSH/oh-my-zsh.sh
